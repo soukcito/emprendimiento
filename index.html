@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thais Style | Ropa 100% Algodón</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fuentes de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Iconos FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Encabezado / Navegación -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo-link">
+        <img src="thays style.jpg" alt="Thais Style Logo" class="logo-img">
+      </a>
+      <nav class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#coleccion">Colección</a>
+        <a href="#contacto" class="btn-nav">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección Hero / Portada principal -->
+  <section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="badge">100% Algodón Peruano de Alta Calidad</span>
+      <h1>Vístete con <span class="highlight">Comodidad</span> y Estilo Elegante</h1>
+      <p>Descubre prendas suaves, duraderas y diseñadas especialmente para brindarte el máximo confort todos los días.</p>
+      <div class="hero-buttons">
+        <a href="#coleccion" class="btn btn-primary">Ver Colección</a>
+        <a href="https://wa.me/519999999?text=Hola,%20quisiera%20más%20información%20sobre%20las%20prendas%20de%20algodón" target="_blank" class="btn btn-whatsapp">
+          <i class="fab fa-whatsapp"></i> Chatear por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Características destacadas -->
+  <section id="nosotros" class="features">
+    <div class="container features-grid">
+      <div class="feature-card">
+        <i class="fas fa-feather-alt feature-icon"></i>
+        <h3>Algodón Suave</h3>
+        <p>Textura delicada con la piel que garantiza la máxima comodidad todo el día.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-shield-alt feature-icon"></i>
+        <h3>Alta Durabilidad</h3>
+        <p>Tejidos resistentes de calidad superior que conservan su forma y color lavada tras lavada.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-wind feature-icon"></i>
+        <h3>Transpirable</h3>
+        <p>Ideal para cualquier época del año, permitiendo que tu piel respire libremente.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catálogo de Prendas con Tarjetas Giratorias 3D -->
+  <section id="coleccion" class="products container">
+    <div class="section-title">
+      <h2>Nuestra <span class="highlight">Colección</span></h2>
+      <p>Explora nuestras prendas exclusivas. Pasa el cursor sobre el botón "Ver detalle" para girar la tarjeta.</p>
+    </div>
+
+    <div class="product-grid">
+
+      <!-- Producto 1 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <!-- Frente de la Tarjeta -->
+          <div class="flip-card-front">
+            <div class="product-img-box">
+              <span class="product-badge">Novedad</span>
+              <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80" alt="Polo Algodón Premium">
+            </div>
+            <div class="product-info">
+              <h3>Polo Algodón Premium</h3>
+              <p class="product-desc">Corte moderno y suave al tacto.</p>
+              <div class="product-footer">
+                <span class="price">S/ 49.00</span>
+                <button type="button" class="btn-detail-trigger">
+                  <i class="fas fa-sync-alt"></i> Ver detalle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reverso de la Tarjeta (Detalle con imagen oscurecida) -->
+          <div class="flip-card-back" style="background-image: url('https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80');">
+            <div class="back-overlay">
+              <span class="back-tag">Detalles del Producto</span>
+              <h3>Polo Algodón Premium</h3>
+              <ul class="detail-list">
+                <li><i class="fas fa-check"></i> 100% Algodón Reactivo (No destiñe).</li>
+                <li><i class="fas fa-check"></i> Costuras reforzadas en hombros y cuello.</li>
+                <li><i class="fas fa-check"></i> Disponible en tallas: S, M, L, XL.</li>
+                <li><i class="fas fa-check"></i> Tacto ultra suave de alto gramaje.</li>
+              </ul>
+              <div class="back-action">
+                <a href="https://wa.me/519999999?text=Hola,%20me%20interesa%20comprar%20el%20Polo%20Algodón%20Premium" target="_blank" class="btn-card-wa-full">
+                  <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <!-- Frente de la Tarjeta -->
+          <div class="flip-card-front">
+            <div class="product-img-box">
+              <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=600&q=80" alt="Polera Oversize Comfort">
+            </div>
+            <div class="product-info">
+              <h3>Polera Oversize Comfort</h3>
+              <p class="product-desc">Algodón perchado cálido y confortable.</p>
+              <div class="product-footer">
+                <span class="price">S/ 89.00</span>
+                <button type="button" class="btn-detail-trigger">
+                  <i class="fas fa-sync-alt"></i> Ver detalle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reverso de la Tarjeta -->
+          <div class="flip-card-back" style="background-image: url('https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=600&q=80');">
+            <div class="back-overlay">
+              <span class="back-tag">Detalles del Producto</span>
+              <h3>Polera Oversize Comfort</h3>
+              <ul class="detail-list">
+                <li><i class="fas fa-check"></i> Algodón perchado franela abrigo total.</li>
+                <li><i class="fas fa-check"></i> Capucha con forro interno y pasadores.</li>
+                <li><i class="fas fa-check"></i> Estilo urbano relajado oversize.</li>
+                <li><i class="fas fa-check"></i> Colores: Negro, Hueso, Rosa.</li>
+              </ul>
+              <div class="back-action">
+                <a href="https://wa.me/519999999?text=Hola,%20me%20interesa%20comprar%20la%20Polera%20Oversize%20Comfort" target="_blank" class="btn-card-wa-full">
+                  <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <!-- Frente de la Tarjeta -->
+          <div class="flip-card-front">
+            <div class="product-img-box">
+              <span class="product-badge">Popular</span>
+              <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80" alt="Polo Minimalista Black">
+            </div>
+            <div class="product-info">
+              <h3>Polo Minimalista Black</h3>
+              <p class="product-desc">Diseño sobrio y elegante para el día a día.</p>
+              <div class="product-footer">
+                <span class="price">S/ 55.00</span>
+                <button type="button" class="btn-detail-trigger">
+                  <i class="fas fa-sync-alt"></i> Ver detalle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reverso de la Tarjeta -->
+          <div class="flip-card-back" style="background-image: url('https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80');">
+            <div class="back-overlay">
+              <span class="back-tag">Detalles del Producto</span>
+              <h3>Polo Minimalista Black</h3>
+              <ul class="detail-list">
+                <li><i class="fas fa-check"></i> Algodón Pyima 50/1 premium.</li>
+                <li><i class="fas fa-check"></i> Acabado sedoso y caída elegante.</li>
+                <li><i class="fas fa-check"></i> Resistente al encogimiento.</li>
+                <li><i class="fas fa-check"></i> Ideal para outfits formales y casuales.</li>
+              </ul>
+              <div class="back-action">
+                <a href="https://wa.me/519999999?text=Hola,%20me%20interesa%20comprar%20el%20Polo%20Minimalista%20Black" target="_blank" class="btn-card-wa-full">
+                  <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer id="contacto" class="footer">
+    <div class="container footer-content">
+      <img src="thays style.jpg" alt="Thais Style Logo" class="footer-logo">
+      
+      <p class="quote">
+        "El estilo es una forma de decir quién eres sin tener que hablar. Siéntete libre, cómoda y auténtica con algodón de calidad."
+      </p>
+
+      <div class="contact-box">
+        <p class="contact-label">¿Tienes alguna duda o quieres hacer un pedido personalizado?</p>
+        <a href="https://wa.me/519999999?text=Hola,%20quisiera%20hacer%20un%20pedido%20en%20Thais%20Style" target="_blank" class="whatsapp-btn-footer">
+          <i class="fab fa-whatsapp"></i> Contactar por WhatsApp (+51 999 999)
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Thais Style. Todos los derechos reservados. Ropa en fino algodón.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón Flotante de WhatsApp -->
+  <a href="https://wa.me/519999999?text=Hola!%20Vengo%20desde%20su%20página%20web" class="float-whatsapp" target="_blank" title="Escríbenos por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+</body>
+</html>
